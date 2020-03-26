@@ -3,6 +3,8 @@
 
   <remote  name="github"
            fetch="ssh://git@github.com/" />
+  <remote  name="tester"
+           fetch="https://github.com/droid-tester-justaday/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -27,5 +29,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" groups="pdk" />
+
+  <project path="device/tester" remote="tester" name="tester-device" revision="master" />
 
 </manifest>
