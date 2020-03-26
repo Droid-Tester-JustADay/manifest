@@ -32,5 +32,6 @@
 
   <project path="device/droid" remote="tester" name="droid-device" revision="master" />
   <project path="device/tester" remote="tester" name="tester-device" revision="master" />
+  <project path="external/aday_component/" remote="tester" name="adaycomponent" revision="master" />
 
 </manifest>
