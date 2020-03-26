@@ -30,8 +30,8 @@
   </project>
   <project path="art" name="platform/art" groups="pdk" />
 
-  <project path="device/droid" remote="tester" name="droid-device" revision="master" />
-  <project path="device/tester" remote="tester" name="tester-device" revision="master" />
-  <project path="external/aday_component/" remote="tester" name="adaycomponent" revision="master" />
+  <project path="device/droid" remote="tester" name="droid-device" revision="sdk-release" />
+  <project path="device/tester" remote="tester" name="tester-device" revision="sdk-release" />
+  <project path="external/aday_component/" remote="tester" name="adaycomponent" revision="sdk-release" />
 
 </manifest>
